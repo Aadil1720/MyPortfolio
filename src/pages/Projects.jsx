@@ -39,7 +39,7 @@ const Projects = () => {
       </header>
 
       {/* Filter buttons */}
-      <ul className="filter-list">
+{/*       <ul className="filter-list">
         {['All', 'Fullstack', 'React Js', 'HTML+CSS+JS
           '].map(category => (
           <li className="filter-item" key={category}>
@@ -52,7 +52,7 @@ const Projects = () => {
             </button>
           </li>
         ))}
-      </ul>
+      </ul> */}
 
       {/* Portfolio items */}
       <section className="projects">
