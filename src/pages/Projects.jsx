@@ -40,7 +40,8 @@ const Projects = () => {
 
       {/* Filter buttons */}
       <ul className="filter-list">
-        {['All', 'Web design', 'Applications', 'Web development'].map(category => (
+        {['All', 'Fullstack', 'React Js', 'HTML+CSS+JS
+          '].map(category => (
           <li className="filter-item" key={category}>
             <button
               className={category === selectedCategory ? 'active' : ''}
