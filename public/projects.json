@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Ecommerce Website",
+      "category": "React Js",
+       "gitUrl":"https://github.com/Aadil1720/ShopApp",
+       "liveUrl":"https://adil1720-ecommerce.netlify.app/",
+      "image": "images/project-1.PNG"
+    },
+    {
+      "id": 2,
+      "title": "Weather App",
+      "category": "React Js",
+      "gitUrl":"https://github.com/Aadil1720/React_weather_app",
+       "liveUrl":"https://adil-weather-app.netlify.app/",
+      "image": "images/project-2.PNG"
+    },
+    {
+      "id": 3,
+      "title": "Note keeper",
+      "category": "React Js",
+      "gitUrl":"https://github.com/Aadil1720/Note_keeper",
+      "liveUrl":"https://notekeeper-clone.netlify.app/",
+      "image": "images/project-3.PNG"
+    },
+    {
+      "id": 4,
+      "title": "Bootstrap-Dashboard",
+      "category": "React Js",
+      "gitUrl":"",
+       "liveUrl":"",
+      "image": "images/project-3.PNG"
+    },
+    {
+      "id": 5,
+      "title": "Recipe App",
+      "category": "Fullstack",
+      "gitUrl":"https://github.com/Aadil1720/Recipe_App",
+       "liveUrl":"",
+      "image": "images/project-5.png"
+    },
+    {
+      "id": 6,
+      "title": "Drum Kit",
+      "category": "HTML+CSS+JS",
+      "gitUrl":"https://github.com/Aadil1720/Aadil-DrumKit",
+       "liveUrl":"https://aadil1720.github.io/Aadil-DrumKit/",
+      "image": "images/project-6.png"
+    },
+    {
+      "id": 7,
+      "title": "todolist",
+      "category": "Fullstack",
+      "gitUrl":"https://github.com/Aadil1720/todolist",
+      "liveUrl":"",
+      "image": "images/project-7.PNG"
+    },
+    {
+      "id": 8,
+      "title": "PortFolio",
+      "category": "React Js",
+      "gitUrl":"",
+      "liveUrl":"",
+      "image": "images/project-8.PNG"
+    },
+    {
+      "id": 9,
+      "title": "Google Authorization",
+      "category": "Fullstack",
+      "gitUrl":"https://github.com/Aadil1720/web-security",
+       "liveUrl":"",
+      "image": "images/project-9.PNG"
+    }
+  ]
+  
