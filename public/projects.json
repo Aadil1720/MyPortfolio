@@ -27,8 +27,8 @@
       "id": 4,
       "title": "Bootstrap-Dashboard",
       "category": "React Js",
-      "gitUrl":"",
-       "liveUrl":"",
+      "gitUrl":"https://github.com/Aadil1720/Dashboard",
+       "liveUrl":"https://react-bootstrap-dashboard.netlify.app/",
       "image": "images/project-4.PNG"
     },
     {
