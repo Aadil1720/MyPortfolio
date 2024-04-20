@@ -68,10 +68,10 @@ const Projects = () => {
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                   <div className='project-icon'>
-                    <Link to={project.liveUrl}>
+                    <Link to={project.liveUrl} className='icon-link'>
                     <FaRegEye liveUrl={project.liveUrl}/> 
                     </Link>
-                      <Link to={project.gitUrl}>
+                      <Link to={project.gitUrl} className='icon-link'>
                       <FaGithub gitUrl={project.gitUrl}/>
                       </Link>
                     
