@@ -49,9 +49,16 @@ const About = () => {
           </div>
           <div className="social-icons">
             <div className="icon-circle"></div>
-            <div className="icon"><a href="https://www.linkedin.com/in/mohd-aadil-029a58263/"></a><FaLinkedin /></div>
-            <div className="icon"><a href="https://leetcode.com/Aadil_Yasin/"></a><SiLeetcode /></div>
-            <div className="icon"><a href="https://github.com/Aadil1720"></a><FaGithub /></div>
+            <Link to='https://www.linkedin.com/in/mohd-aadil-029a58263/'>
+            <div className="icon">
+            <FaLinkedin /></div>
+            </Link>
+             <Link to='https://leetcode.com/Aadil_Yasin/'>
+             <div className="icon"><SiLeetcode /></div>
+             </Link>
+             <Link to='https://github.com/Aadil1720'>
+             <div className="icon"><FaGithub /></div>
+             </Link>
             <div className="icon"><a href=""></a><FaInstagram /></div>
           </div>
         </div>
