@@ -5,7 +5,7 @@
       "category": "React Js",
        "gitUrl":"https://github.com/Aadil1720/ShopApp",
        "liveUrl":"https://adil1720-ecommerce.netlify.app/",
-      "image": "images/project-1.PNG"
+      "image": "images/shopApp.PNG"
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "category": "React Js",
       "gitUrl":"https://github.com/Aadil1720/React_weather_app",
        "liveUrl":"https://adil-weather-app.netlify.app/",
-      "image": "images/project-2.PNG"
+      "image": "images/weather.PNG"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "title": "Recipe App",
-      "category": "Fullstack",
+      "category": "React.js, Node.js, MonogDB",
       "gitUrl":"https://github.com/Aadil1720/Recipe_App",
        "liveUrl":"",
       "image": "images/project-5.png"
@@ -42,7 +42,7 @@
     {
       "id": 6,
       "title": "Drum Kit",
-      "category": "HTML+CSS+JS",
+      "category": "Javascript",
       "gitUrl":"https://github.com/Aadil1720/Aadil-DrumKit",
        "liveUrl":"https://aadil1720.github.io/Aadil-DrumKit/",
       "image": "images/project-6.png"
@@ -50,7 +50,7 @@
     {
       "id": 7,
       "title": "todolist",
-      "category": "Fullstack",
+      "category": "node.js, ejs template engine",
       "gitUrl":"https://github.com/Aadil1720/todolist",
       "liveUrl":"",
       "image": "images/project-7.PNG"
@@ -66,7 +66,7 @@
     {
       "id": 9,
       "title": "Google Authorization",
-      "category": "Fullstack",
+      "category": "Node.js, ejs template engine",
       "gitUrl":"https://github.com/Aadil1720/web-security",
        "liveUrl":"",
       "image": "images/project-9.PNG"
