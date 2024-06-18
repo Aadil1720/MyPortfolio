@@ -5,18 +5,16 @@ import ReactTypingEffect from 'react-typing-effect';
 import { toast } from "react-toastify"
 import { Link } from 'react-router-dom';
 const About = () => {
-  const cvFilename = 'resume_latest.pdf';
+  const cvFilename = '';
   const cvURL = '/CVs/' + cvFilename;
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = cvURL;
-    link.download = cvFilename;
-    document.body.appendChild(link);
-    setTimeout(() => {
-      link.click();
-      document.body.removeChild(link);
-      toast.success('CV downloaded successfully!', true);
-    }, 500);
+  const handleDownload = (url) => {
+     const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    document.body.removeChild(aTag);
   };
   return (
     <div className='about active'>
@@ -45,7 +43,7 @@ const About = () => {
             <Link to="/contact">
               <button className="btn hire-btn">Hire me</button>
             </Link>
-            <button className="btn" onClick={handleDownload}>Download CV <i className="uil uil-file"></i></button>
+            <button className="btn" onClick={handleDownload('/CVs/resume_latest.pdf')}>Download CV <i className="uil uil-file"></i></button>
           </div>
           <div className="social-icons">
             <div className="icon-circle"></div>
