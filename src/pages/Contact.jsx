@@ -7,7 +7,7 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const my_email = "mohdadil1j2@gmail.com";
+  
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -18,7 +18,7 @@ const Contact = () => {
         }
 
         try {
-            const mailtoLink = `mailto:${my_email}?body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+            const mailtoLink = `mailto:${email}?body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
             window.location.href = mailtoLink;
             // Show success message
             toast.success('Message sent successfully!', true);
