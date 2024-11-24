@@ -14,9 +14,10 @@ const Sidebar = () => {
    <aside className={`sidebar ${active ? 'active' : ''}`}>
     <div className='sidebar-info'>
         <figure>
-            <img src='images/jmiPhoto.jpg' alt='' width='100' style={{borderRadius:'50%', border:'solid #38BDF8'}}/>
+            <img src='images/profile-image.png' alt='' width='100' style={{borderRadius:'50%', border:'solid #38BDF8'}}/>
         </figure>
           <div className='info-content'>
+            
            <h1 className='name'>Mohd Aadil</h1>
            <p className='title'>Web Developer</p>
          </div>
