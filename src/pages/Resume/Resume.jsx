@@ -10,17 +10,47 @@ const Resume = () => {
       <header>
         <h2 className="h2 article-title">Resume</h2>
       </header>
+            <div className="timeline">
+        <div className="title-wrapper">
+          <div className="icon-box">
+            <FaRegBookmark />
+          </div>
+          <h3 className="h3">Experience</h3>
+        </div>
+        <ol className="timeline-list">
+          <TimelineItem
+            title="Associate System Engineer, Tata Consultancy Services (TCS)"
+            date="June 2025 - Present"
+            description="Working on scalable enterprise-level projects using Java, Spring Boot, React Js, Docker, MySql, MongoDB and RESTful APIs."
+         />
+           <TimelineItem
+            title="Associate Software Developer, Ramaera Legal Infotech"
+            date="Nov 2024 - April 2025"
+           description="Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented microservices with Spring Boot, integrated JWT authentication, and optimized API performance."
+          />
+          <TimelineItem
+            title="Intern, Systemic Altruism"
+            date="March 2024 - May 2024"
+            certificateLink="https://drive.google.com/file/d/1cSp-5rwUAHsceI4OFYJho64Wv5wW5hXk/view"
+            description="Worked on React.js-based web applications, integrating RESTful APIs and improving UI/UX using hooks, props, and state management. Collaborated in a team to deliver responsive, dynamic interfaces."
+          />
+        />
+        </ol>
+      </div>
       <div className="skill">
         <h3 className="h3 skills-title">My skills</h3>
         <ul className="skills-list content-card">
-          <SkillItem title="JavaScript" value={70} />
+           <SkillItem title="Core Java" value={80} />
+          <SkillItem title="Java Springboot" value={70} />
+          <SkillItem title="JavaScript" value={80} />
           <SkillItem title="React JS" value={80} />
-          <SkillItem title="Node Js" value={60} />
+          <SkillItem title="Node Js" value={80} />
           <SkillItem title="HTML5" value={80} />
           <SkillItem title="CSS" value={70} />
-          <SkillItem title="MongoDB" value={60} />
-          <SkillItem title="SQL" value={60} />
-          <SkillItem title="Core Java" value={80} />
+          <SkillItem title="MongoDB" value={70} />
+          <SkillItem title="MySQL" value={80} />
+             <SkillItem title="Git" value={80} />
+           <SkillItem title="Docker" value={50} />
         </ul>
       </div>
       <div className="timeline">
@@ -43,12 +73,12 @@ const Resume = () => {
           />
           <TimelineItem
             title="12th Standard, Kaushalya world School, Greater Noida"
-            date="2016— 2017"
+            date="2017— 2018"
             description="Score: 86%"
           />
           <TimelineItem
             title="High School, Maples Academy, Budhana"
-            date="2014— 2015"
+            date="2015— 2016"
             description="CGPA: 10"
           />
         </ol>
@@ -77,33 +107,7 @@ Data Analysis with Python"
           />
         </ol>
       </div>
-      <div className="timeline">
-        <div className="title-wrapper">
-          <div className="icon-box">
-            <FaRegBookmark />
-          </div>
-          <h3 className="h3">Experience</h3>
-        </div>
-        <ol className="timeline-list">
-          <TimelineItem
-            title="Intern, Systemic Altruism"
-            date="March 2024 - May 2024"
-            certificateLink="https://drive.google.com/file/d/1cSp-5rwUAHsceI4OFYJho64Wv5wW5hXk/view"
-            description="Worked on React.js-based web applications, integrating RESTful APIs and improving UI/UX using hooks, props, and state management. Collaborated in a team to deliver responsive, dynamic interfaces."
-          />
-              <TimelineItem
-            title="Associate Software Developer, Ramaera Legal Infotech"
-            date="Nov 2024 - April 2025"
-           description="Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented microservices with Spring Boot, integrated JWT authentication, and optimized API performance."
-          />
-              <TimelineItem
-            title="Associate System Engineer, Tata Consultancy Services (TCS)"
-            date="June 2025 - Present"
-            description="Working on scalable enterprise-level projects using Java, Spring Boot, React Js, Docker, MySql, MongoDB and RESTful APIs."
-    />
-            />
-        </ol>
-      </div>
+
     </section>
   );
 };
