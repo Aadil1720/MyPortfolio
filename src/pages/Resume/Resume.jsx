@@ -86,10 +86,22 @@ Data Analysis with Python"
         </div>
         <ol className="timeline-list">
           <TimelineItem
-            title="Fresher"
-            date=""
-            description=""
+            title="Intern, Systemic Altruism"
+            date="March 2024 - May 2024"
+            certificateLink="https://drive.google.com/file/d/1cSp-5rwUAHsceI4OFYJho64Wv5wW5hXk/view"
+            description="Worked on React.js-based web applications, integrating RESTful APIs and improving UI/UX using hooks, props, and state management. Collaborated in a team to deliver responsive, dynamic interfaces."
           />
+              <TimelineItem
+            title="Associate Software Developer, Ramaera Legal Infotech"
+            date="Nov 2024 - April 2025"
+           description="Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented microservices with Spring Boot, integrated JWT authentication, and optimized API performance."
+          />
+              <TimelineItem
+            title="Associate System Engineer, Tata Consultancy Services (TCS)"
+            date="June 2025 - Present"
+            description="Working on scalable enterprise-level projects using Java, Spring Boot, React Js, Docker, MySql, MongoDB and RESTful APIs."
+    />
+            />
         </ol>
       </div>
     </section>
