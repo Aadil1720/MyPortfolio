@@ -64,11 +64,6 @@ const Sidebar = () => {
                
               </div>
 
-              <div className="contact-info">
-                <p className="contact-title">Birthday</p>
-
-                <time dateTime="1982-06-23">Jul1 1, 2000</time>
-              </div>
             </li>
 
             <li className="contact-item">
