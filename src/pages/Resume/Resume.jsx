@@ -45,12 +45,12 @@ const Resume = () => {
           <SkillItem title="JavaScript" value={80} />
           <SkillItem title="React JS" value={80} />
           <SkillItem title="Node Js" value={80} />
-          <SkillItem title="HTML5" value={80} />
-          <SkillItem title="CSS" value={70} />
           <SkillItem title="MongoDB" value={70} />
           <SkillItem title="MySQL" value={80} />
-             <SkillItem title="Git" value={80} />
+          <SkillItem title="Git" value={80} />
            <SkillItem title="Docker" value={50} />
+          <SkillItem title="HTML5" value={80} />
+          <SkillItem title="CSS" value={70} />
         </ul>
       </div>
       <div className="timeline">
