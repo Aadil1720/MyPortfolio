@@ -67,7 +67,7 @@ const About = () => {
           </div>
         </div>
         <div className="featured-image">
-          <img className="image" src="images/avatar.jpeg" alt="avatar" />
+          <img className="image" src="images/Avatar.jpeg" alt="avatar" />
         </div>
       </section>
     </div>
