@@ -36,11 +36,12 @@ const About = () => {
             />
           </p>
           <div className="text-info">
-            <p>
-              I am a self-driven, meticulous MCA post-graduate skilled 
-              at web development, solving problems, and proficient in Core Java.
+              <p>
+              I am a self-driven, meticulous MCA post-graduate placed at TCS, 
+              skilled in web development, problem-solving, and proficient in Core Java.
               <br />
-              Seeking opportunities in the field of software development.
+              My technical expertise includes <strong>Spring Boot Microservices</strong>, 
+              React.js, Node.js, MySQL, and MongoDB, with major focus on Spring Boot Microservices.
             </p>
           </div>
           <div className="text-btn">
