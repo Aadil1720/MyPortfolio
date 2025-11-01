@@ -14,7 +14,7 @@ const Sidebar = () => {
    <aside className={`sidebar ${active ? 'active' : ''}`}>
     <div className='sidebar-info'>
         <figure>
-            <img src='images/Avatar.jpeg' alt='' width='100' style={{borderRadius:'50%', border:'solid #38BDF8'}}/>
+            <img src='images/profile.jpeg' alt='' width='100' style={{borderRadius:'50%', border:'solid #38BDF8'}}/>
         </figure>
           <div className='info-content'>
             
