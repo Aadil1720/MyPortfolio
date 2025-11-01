@@ -58,13 +58,7 @@ const Sidebar = () => {
               </div>
             </li>
 
-            <li className="contact-item">
-              <div className="icon-box">
-                <GiCalendar/>
-               
-              </div>
-
-            </li>
+       
 
             <li className="contact-item">
               <div className="icon-box">
