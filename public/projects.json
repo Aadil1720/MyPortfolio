@@ -1,92 +1,98 @@
 [
-   
-    {
-      "id": 1,
-      "title": "GNCC Management Project",
-      "category": "MERN Stack",
-       "gitUrl":"https://github.com/Aadil1720/gncc_managment_portal",
-       "liveUrl":"https://gncc-managment-portal.vercel.app/",
-      "image": "images/gnccFrontpage.png"
-    },
-       {
-      "id": 2,
-      "title": "Green Harvest",
-      "category": "React Js",
-       "gitUrl":"https://github.com/Aadil1720/greenHarvest_react",
-       "liveUrl":"https://adil-greenharvest.netlify.app/",
-      "image": "images/greenHarvest.PNG"
-    },
-    {
-      "id": 3,
-      "title": "Ecommerce Website",
-      "category": "React Js",
-       "gitUrl":"https://github.com/Aadil1720/ShopApp",
-       "liveUrl":"https://adil1720-ecommerce.netlify.app/",
-      "image": "images/shopApp.PNG"
-    },
-    {
-      "id": 4,
-      "title": "Weather App",
-      "category": "React Js",
-      "gitUrl":"https://github.com/Aadil1720/React_weather_app",
-       "liveUrl":"https://adil-weather-app.netlify.app/",
-      "image": "images/weather.PNG"
-    },
-    {
-      "id": 5,
-      "title": "Note keeper",
-      "category": "React Js",
-      "gitUrl":"https://github.com/Aadil1720/Note_keeper",
-      "liveUrl":"https://notekeeper-clone.netlify.app/",
-      "image": "images/project-3.PNG"
-    },
-    {
-      "id": 6,
-      "title": "Bootstrap-Dashboard",
-      "category": "React Js",
-      "gitUrl":"https://github.com/Aadil1720/Dashboard",
-       "liveUrl":"https://react-bootstrap-dashboard.netlify.app/",
-      "image": "images/project-4.PNG"
-    },
-    {
-      "id": 7,
-      "title": "Recipe App",
-      "category": "React.js, Node.js, MonogDB",
-      "gitUrl":"https://github.com/Aadil1720/Recipe_App",
-       "liveUrl":"",
-      "image": "images/project-5.png"
-    },
-    {
-      "id": 8,
-      "title": "Drum Kit",
-      "category": "Javascript",
-      "gitUrl":"https://github.com/Aadil1720/Aadil-DrumKit",
-       "liveUrl":"https://aadil1720.github.io/Aadil-DrumKit/",
-      "image": "images/project-6.png"
-    },
-    {
-      "id": 9,
-      "title": "todolist",
-      "category": "node.js, ejs template engine",
-      "gitUrl":"https://github.com/Aadil1720/todolist",
-      "liveUrl":"",
-      "image": "images/project-7.PNG"
-    },
-    {
-      "id": 10,
-      "title": "PortFolio",
-      "category": "React Js",
-      "gitUrl":"https://github.com/Aadil1720/MyPortfolio",
-      "liveUrl":"https://adil1720-portfolio.netlify.app/",
-      "image": "images/project-8.PNG"
-    },
-    {
-      "id": 11,
-      "title": "Google Authorization",
-      "category": "Node.js, ejs template engine",
-      "gitUrl":"https://github.com/Aadil1720/web-security",
-       "liveUrl":"",
-      "image": "images/project-9.PNG"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "ShopSphere Project",
+    "category": "Spring Boot Microservices and Postgres SQL as DB",
+    "gitUrl": "https://github.com/Aadil1720/ShopSphere-Api",
+    "liveUrl": "",
+    "image": "images/shopsphere.PNG"
+  },
+  {
+    "id": 2,
+    "title": "GNCC Management Project",
+    "category": "MERN Stack",
+    "gitUrl": "https://github.com/Aadil1720/gncc_managment_portal",
+    "liveUrl": "https://gncc-managment-portal.vercel.app/",
+    "image": "images/gnccFrontpage.png"
+  },
+  {
+    "id": 3,
+    "title": "Green Harvest",
+    "category": "React Js",
+    "gitUrl": "https://github.com/Aadil1720/greenHarvest_react",
+    "liveUrl": "https://adil-greenharvest.netlify.app/",
+    "image": "images/greenHarvest.PNG"
+  },
+  {
+    "id": 4,
+    "title": "Ecommerce Website",
+    "category": "React Js",
+    "gitUrl": "https://github.com/Aadil1720/ShopApp",
+    "liveUrl": "https://adil1720-ecommerce.netlify.app/",
+    "image": "images/shopApp.PNG"
+  },
+  {
+    "id": 5,
+    "title": "Weather App",
+    "category": "React Js",
+    "gitUrl": "https://github.com/Aadil1720/React_weather_app",
+    "liveUrl": "https://adil-weather-app.netlify.app/",
+    "image": "images/weather.PNG"
+  },
+  {
+    "id": 6,
+    "title": "Note keeper",
+    "category": "React Js",
+    "gitUrl": "https://github.com/Aadil1720/Note_keeper",
+    "liveUrl": "https://notekeeper-clone.netlify.app/",
+    "image": "images/project-3.PNG"
+  },
+  {
+    "id": 7,
+    "title": "Bootstrap-Dashboard",
+    "category": "React Js",
+    "gitUrl": "https://github.com/Aadil1720/Dashboard",
+    "liveUrl": "https://react-bootstrap-dashboard.netlify.app/",
+    "image": "images/project-4.PNG"
+  },
+  {
+    "id": 8,
+    "title": "Recipe App",
+    "category": "React.js, Node.js, MongoDB",
+    "gitUrl": "https://github.com/Aadil1720/Recipe_App",
+    "liveUrl": "",
+    "image": "images/project-5.png"
+  },
+  {
+    "id": 9,
+    "title": "Drum Kit",
+    "category": "Javascript",
+    "gitUrl": "https://github.com/Aadil1720/Aadil-DrumKit",
+    "liveUrl": "https://aadil1720.github.io/Aadil-DrumKit/",
+    "image": "images/project-6.png"
+  },
+  {
+    "id": 10,
+    "title": "todolist",
+    "category": "Node.js, EJS Template Engine",
+    "gitUrl": "https://github.com/Aadil1720/todolist",
+    "liveUrl": "",
+    "image": "images/project-7.PNG"
+  },
+  {
+    "id": 11,
+    "title": "PortFolio",
+    "category": "React Js",
+    "gitUrl": "https://github.com/Aadil1720/MyPortfolio",
+    "liveUrl": "https://adil1720-portfolio.netlify.app/",
+    "image": "images/project-8.PNG"
+  },
+  {
+    "id": 12,
+    "title": "Google Authorization",
+    "category": "Node.js, EJS Template Engine",
+    "gitUrl": "https://github.com/Aadil1720/web-security",
+    "liveUrl": "",
+    "image": "images/project-9.PNG"
+  }
+]
