@@ -40,7 +40,7 @@ const About = () => {
               I am a self-driven, meticulous MCA post-graduate placed at TCS, 
               skilled in web development, problem-solving, and proficient in Core Java.
               <br />
-              My technical expertise includes <strong>Spring Boot Microservices</strong>, 
+              My technical expertise includes <strong style={{ color:"#38bdf8"}}>Spring Boot Microservices</strong>, 
               React.js, Node.js, MySQL, and MongoDB, with major focus on Spring Boot Microservices.
             </p>
           </div>
