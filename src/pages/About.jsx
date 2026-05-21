@@ -35,15 +35,14 @@ const About = () => {
               typingDelay={1000}
             />
           </p>
-          <div className="text-info">
-            <p>
-              I am a self-driven, meticulous MCA post-graduate placed at TCS, 
-              skilled in web development, problem-solving, and proficient in Core Java.
-              <br />
-              My technical expertise includes <strong>Spring Boot Microservices</strong>, 
-              React.js, Node.js, MySQL, and MongoDB, with major focus on Spring Boot Microservices.
-            </p>
-          </div>
+<div className="text-info">
+  <p>
+    I am a self-driven MCA graduate with experience in <strong>PySpark</strong>, 
+    <strong>Azure Databricks</strong>, <strong>Azure Data Factory (ADF)</strong>, 
+    SQL, and scalable ETL pipeline development. I also have backend development 
+    experience with Spring Boot, Node.js, MySQL, and MongoDB.
+  </p>
+</div>
           <div className="text-btn">
             <Link to="/contact">
               <button className="btn hire-btn">Hire me</button>
