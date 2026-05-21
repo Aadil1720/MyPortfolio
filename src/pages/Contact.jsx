@@ -8,29 +8,38 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
   
-    const my_email='mohdadil1j2@gmail.com';
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Perform form validation
-        if (!name || !email|| !message) {
-            toast.error('Please fill in all required fields.', false);
-            return;
-        }
+const my_email = 'mohdadil1j2@gmail.com';
 
-        try {
-            const mailtoLink = `mailto:${my_email}?body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
-            window.location.href = mailtoLink;
-            // Show success message
-            toast.success('Message sent successfully!', true);
-            // Reset form fields
-            setName('');
-            setEmail('');
-            setMessage('');
-        } catch (error) {
-            // Show error message if sending email failed
-            toast.error(`Failed to send message. Please try again later. ${error}`, false);
-        }
-    };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  if (!name || !email || !message) {
+    toast.error('Please fill in all required fields.');
+    return;
+  }
+
+  try {
+    const subject = `Portfolio Contact from ${name}`;
+
+    const body = `Name: ${name}
+Email: ${email}
+
+Message:
+${message}`;
+
+    const mailtoLink = `mailto:${my_email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+
+    toast.success('Opening mail client...');
+
+    setName('');
+    setEmail('');
+    setMessage('');
+  } catch (error) {
+    toast.error('Failed to open mail client.');
+  }
+};
   return (
     <section className="contact" data-page="contact">
 
