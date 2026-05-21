@@ -18,11 +18,11 @@ const Resume = () => {
           <h3 className="h3">Experience</h3>
         </div>
         <ol className="timeline-list">
-          <TimelineItem
-            title="Associate System Engineer, Tata Consultancy Services (TCS)"
-            date="June 2025 - Present"
-            description="Working on scalable enterprise-level projects using Java, Spring Boot, React Js, Docker, MySql, MongoDB and RESTful APIs."
-         />
+<TimelineItem
+  title="Associate System Engineer, Tata Consultancy Services (TCS)"
+  date="June 2025 - Present"
+  description="Working on scalable data engineering and backend solutions using PySpark, Azure Databricks, Azure Data Factory (ADF), SQL, Java, and RESTful APIs."
+/>
            <TimelineItem
             title="Associate Software Developer, Ramaera Legal Infotech"
             date="Nov 2024 - April 2025"
