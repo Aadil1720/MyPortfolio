@@ -37,22 +37,23 @@ const Resume = () => {
         />
         </ol>
       </div>
-      <div className="skill">
-        <h3 className="h3 skills-title">My skills</h3>
-        <ul className="skills-list content-card">
-           <SkillItem title="Core Java" value={80} />
-          <SkillItem title="Java Springboot" value={70} />
-          <SkillItem title="JavaScript" value={80} />
-          <SkillItem title="React JS" value={80} />
-          <SkillItem title="Node Js" value={80} />
-          <SkillItem title="MongoDB" value={70} />
-          <SkillItem title="MySQL" value={80} />
-          <SkillItem title="Git" value={80} />
-           <SkillItem title="Docker" value={50} />
-          <SkillItem title="HTML5" value={80} />
-          <SkillItem title="CSS" value={70} />
-        </ul>
-      </div>
+<div className="skill">
+  <h3 className="h3 skills-title">My Skills</h3>
+
+  <ul className="skills-list content-card">
+    <SkillItem title="PySpark" value={75} />
+    <SkillItem title="Azure Databricks" value={70} />
+    <SkillItem title="Azure Data Factory" value={70} />
+    <SkillItem title="SQL" value={85} />
+    <SkillItem title="Python" value={75} />
+    <SkillItem title="Core Java" value={80} />
+    <SkillItem title="Spring Boot" value={70} />
+    <SkillItem title="Node.js" value={75} />
+    <SkillItem title="MongoDB" value={70} />
+    <SkillItem title="MySQL" value={80} />
+    <SkillItem title="Git" value={80} />
+  </ul>
+</div>
       <div className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">
