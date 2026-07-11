@@ -36,12 +36,13 @@ const About = () => {
             />
           </p>
 <div className="text-info">
-  <p>
-    I am a self-driven MCA graduate with experience in <strong>PySpark</strong>, 
-    <strong>Azure Databricks</strong>, <strong>Azure Data Factory (ADF)</strong>, 
-    SQL, and scalable ETL pipeline development. I also have backend development 
-    experience with Spring Boot, Node.js, MySQL, and MongoDB.
-  </p>
+<p>
+  I am a self-driven MCA graduate with experience in <strong>PySpark</strong>,
+  <strong>Azure Databricks</strong>, <strong>Azure Data Factory (ADF)</strong>,
+  <strong>Snowflake</strong>, SQL, and scalable ETL pipeline development. I also
+  have backend development experience with <strong>Java</strong>,
+  <strong>Spring Boot</strong>, and RESTful APIs.
+</p>
 </div>
           <div className="text-btn">
             <Link to="/contact">
