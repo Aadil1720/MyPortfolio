@@ -19,7 +19,7 @@ const Sidebar = () => {
           <div className='info-content'>
             
            <h1 className='name'>Mohd Aadil</h1>
-           <p className='title'>Data Engineer | Web Developer</p>
+           <p className='title'>Data Engineer | Full-Stack Developer</p>
          </div>
          <button className="info_more-btn"  onClick={toggleContacts}>
             <span>Show Contacts</span><GiClawSlashes />
