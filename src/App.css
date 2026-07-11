@@ -530,7 +530,7 @@ main {
 }
 
 .featured-name {
-  font-size: 3.125rem; /* equivalent to 50px */
+  font-size: 3rem; /* equivalent to 50px */
   font-weight: 600;
   margin-block: 2rem; /* equivalent to 20px */
   color: var(--orange-yellow-crayola);
