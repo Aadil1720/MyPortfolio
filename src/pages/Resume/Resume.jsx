@@ -93,12 +93,12 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           {/* Add your TimelineItems for achievements and certifications here */}
-          <TimelineItem
-            title="Certification in Web Development"
-            date="Sep 19, 2023"
-            certificateLink='https://www.udemy.com/certificate/UC-7c65dce5-5baf-452c-8a7f-5ba83d871f27/'
-            description="Achieved the web development bootcamp completion certificate by udemy."
-          />
+       <TimelineItem
+  title="Databricks Certified Associate Data Engineer"
+  date="Feb 01, 2026"
+  certificateLink="https://credentials.databricks.com/55f10240-e066-4c42-b99b-8aefbd1b1471#acc.lPfa31dt"
+  description="Validated expertise in Databricks, Apache Spark, Delta Lake, and building scalable data engineering pipelines."
+/>
           <TimelineItem
             title="Certification in Data Analysis with Python by IBM"
             date=" June 30, 2023"
