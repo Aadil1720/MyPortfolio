@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <p className="featured-name">
             <ReactTypingEffect
-              text={['Data Engineer', 'Developer', 'Quick Learner']}
+              text={['Data Engineer', 'Databricks Certified', 'Java Developer']}
               speed={200}
               eraseSpeed={100}
               eraseDelay={1500}
