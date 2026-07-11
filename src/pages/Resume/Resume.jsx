@@ -21,7 +21,7 @@ const Resume = () => {
 <TimelineItem
   title="Associate System Engineer, Tata Consultancy Services (TCS)"
   date="June 2025 - Present"
-  description="Working on scalable data engineering and backend solutions using PySpark, Azure Databricks, Azure Data Factory (ADF), SQL, Java, and RESTful APIs."
+  description="Working on enterprise data engineering solutions using Azure Databricks, PySpark, Snowflake, Azure Data Factory (ADF), SQL, Control-M, and workflow automation."
 />
            <TimelineItem
             title="Associate Software Developer, Ramaera Legal Infotech"
